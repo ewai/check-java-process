@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'info.ewai.JavaAnalyze'
+    }
+}
+
+mainClassName='com.oisix.JavaAnalyze'
